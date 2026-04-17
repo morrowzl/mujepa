@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Exclude directory contents but keep directories via .gitkeep
+logs/*
+!logs/.gitkeep
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+docs/*
+!docs/.gitkeep
