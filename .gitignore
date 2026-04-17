@@ -215,3 +215,5 @@ outputs/*
 !outputs/.gitkeep
 docs/*
 !docs/.gitkeep
+
+.claude/

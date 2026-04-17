@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "mujEPA"
+version = "0.1.0"
+description = "MuJEPA: Multimodal Joint-Embedding Predictive Architecture"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision",
+    "pytorch-lightning",
+    "numpy",
+    "matplotlib",
+    "zarr",
+    "einops",
+    "einx",
+    "loguru",
+    "wandb",
+    "scikit-image",
+    "lejepa @ git+https://github.com/galilai-group/lejepa.git",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
