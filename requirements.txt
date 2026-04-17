@@ -33,6 +33,7 @@ loguru==0.7.3
 MarkupSafe==3.0.3
 matplotlib==3.10.8
 mpmath==1.3.0
+-e git+https://github.com/morrowzl/mujepa.git@06a575dc93fa69669f047d83ab90adbf157481ea#egg=mujEPA
 multidict==6.7.1
 muvit==0.1.0
 networkx==3.6.1
@@ -59,12 +60,13 @@ sentry-sdk==2.58.0
 setuptools==70.2.0
 six==1.17.0
 smmap==5.0.3
-sympy==1.14.0
+sympy==1.13.1
 tifffile==2026.4.11
-torch==2.11.0+cpu
+torch==2.5.1+cu121
 torch-einops-utils==0.0.30
+torchaudio==2.5.1+cu121
 torchmetrics==1.9.0
-torchvision==0.26.0+cpu
+torchvision==0.20.1+cu121
 tqdm==4.67.3
 typing-inspection==0.4.2
 typing_extensions==4.15.0
